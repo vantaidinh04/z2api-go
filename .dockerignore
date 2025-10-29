@@ -1,0 +1,35 @@
+# Git
+.git
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Environment files (will be copied separately)
+.env
+
+# Build artifacts
+z2api-go
+z2api-go.exe
+z2api-go-linux
+
+# IDE files
+.vscode
+.idea
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
