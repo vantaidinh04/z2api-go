@@ -33,12 +33,11 @@ cp .env.example .env
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `TOKEN` | Z.ai token (leave empty if using anonymous mode) | - |
+| `TOKEN` | Z.ai token (leave empty for anonymous mode, set for authenticated mode) | - |
 | `PORT` | Server port | `8080` |
 | `DEBUG` | Enable debug mode | `false` |
 | `DEBUG_MSG` | Enable debug messages | `false` |
 | `THINK_TAGS_MODE` | Thinking tags processing mode (`reasoning`, `think`, `strip`, `details`) | `reasoning` |
-| `ANONYMOUS_MODE` | Use anonymous mode | `true` |
 | `MODEL` | Default model | `glm-4.6` |
 
 ## License

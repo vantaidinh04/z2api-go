@@ -60,11 +60,10 @@ func loadConfig() *Config {
 			Token:    strings.TrimSpace(getEnv("TOKEN", "")),
 		},
 		API: APIConfig{
-			Port:      getEnvInt("PORT", 8080),
-			Debug:     getEnvBool("DEBUG", false),
-			DebugMsg:  getEnvBool("DEBUG_MSG", false),
-			Think:     getEnv("THINK_TAGS_MODE", "reasoning"),
-			Anonymous: getEnvBool("ANONYMOUS_MODE", true),
+			Port:     getEnvInt("PORT", 8080),
+			Debug:    getEnvBool("DEBUG", false),
+			DebugMsg: getEnvBool("DEBUG_MSG", false),
+			Think:    getEnv("THINK_TAGS_MODE", "reasoning"),
 		},
 		Model: ModelConfig{
 			Default: getEnv("MODEL", "glm-4.6"),
@@ -72,6 +71,9 @@ func loadConfig() *Config {
 		},
 		Headers: make(map[string]string),
 	}
+
+	// Set anonymous mode based on token presence
+	c.API.Anonymous = (c.Source.Token == "")
 
 	// Initialize headers
 	c.initHeaders()
