@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/vantaidinh04/z2api-go/config"
-	"github.com/vantaidinh04/z2api-go/types"
+	"github.com/Tyler-Dinh/z2api-go/config"
+	"github.com/Tyler-Dinh/z2api-go/types"
 )
 
 // ModelsService handles model listing and mapping

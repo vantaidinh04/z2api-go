@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/vantaidinh04/z2api-go/types"
+	"github.com/Tyler-Dinh/z2api-go/types"
 )
 
 // HealthHandler handles health check requests

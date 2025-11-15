@@ -7,7 +7,7 @@ Proxy API for Z.ai compatible with OpenAI and Anthropic, written in Go.
 ### Using Go
 
 ```bash
-git clone https://github.com/vantaidinh04/z2api-go.git
+git clone https://github.com/Tyler-Dinh/z2api-go.git
 cd z2api-go
 go mod download
 go run main.go
@@ -16,7 +16,7 @@ go run main.go
 ### Using Docker
 
 ```bash
-git clone https://github.com/vantaidinh04/z2api-go.git
+git clone https://github.com/Tyler-Dinh/z2api-go.git
 cd z2api-go
 docker-compose up -d
 ```

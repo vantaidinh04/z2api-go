@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/vantaidinh04/z2api-go/config"
-	"github.com/vantaidinh04/z2api-go/types"
-	"github.com/vantaidinh04/z2api-go/utils"
+	"github.com/Tyler-Dinh/z2api-go/config"
+	"github.com/Tyler-Dinh/z2api-go/types"
+	"github.com/Tyler-Dinh/z2api-go/utils"
 )
 
 // FormatRequest converts OpenAI/Anthropic format to Z.ai format

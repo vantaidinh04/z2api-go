@@ -5,10 +5,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/vantaidinh04/z2api-go/config"
-	"github.com/vantaidinh04/z2api-go/handlers"
-	"github.com/vantaidinh04/z2api-go/middleware"
-	"github.com/vantaidinh04/z2api-go/utils"
+	"github.com/Tyler-Dinh/z2api-go/config"
+	"github.com/Tyler-Dinh/z2api-go/handlers"
+	"github.com/Tyler-Dinh/z2api-go/middleware"
+	"github.com/Tyler-Dinh/z2api-go/utils"
 )
 
 func main() {
@@ -36,7 +36,7 @@ func main() {
 	// Print startup info
 	log.Println("---------------------------------------------------------------------")
 	log.Println("Z2api Go - OpenAI/Anthropic Compatible Proxy for Z.ai")
-	log.Println("https://github.com/vantaidinh04/z2api-go")
+	log.Println("https://github.com/Tyler-Dinh/z2api-go")
 	log.Println("---------------------------------------------------------------------")
 	log.Printf("Base:           %s//%s", cfg.Source.Protocol, cfg.Source.Host)
 	log.Printf("Port:           %d", cfg.API.Port)
